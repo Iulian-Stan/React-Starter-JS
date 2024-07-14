@@ -1,0 +1,84 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "import/no-unresolved": "off",
+    "react/prop-types": "error",
+    "react/react-in-jsx-scope": "off",
+    "brace-style": [
+      "error",
+      "1tbs", {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-spacing": "error",
+    "eol-last": [
+      "error",
+      "always"
+    ],
+    "func-style": [
+      "error",
+      "expression"
+    ],
+    "indent": [
+      "error",
+      2, {
+        "SwitchCase": 1
+      }
+    ],
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "linebreak-style": "off",
+    "newline-per-chained-call": [
+      "error", {
+        "ignoreChainWithDepth": 2
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error", {
+        "max": 1,
+        "maxEOF": 1,
+        "maxBOF": 0
+      }
+    ],
+    "no-multi-spaces": [
+      "error", {
+        "ignoreEOLComments": true
+      }
+    ],
+    "no-tabs": "error",
+    "no-trailing-spaces": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "space-infix-ops": "error"
+  }
+}
