@@ -1,0 +1,12 @@
+@import '../theme/colors.scss';
+
+.label {
+  color: $GREEN_E;
+  font-size: 1.5em;
+}
+
+.button {
+  color: $GOLD_E;
+  font-size: 1.5em;
+  cursor: pointer;
+}
